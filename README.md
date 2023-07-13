@@ -5,8 +5,8 @@ This is a boilerplate project for starting a Rust application in a production en
 
 ## Features
 
-- [ ] CI/CD
-- [ ] Architecture specific build settings
+- [x] CI/CD
+- [x] Architecture specific build settings
 
 
 ## Prerequisites
@@ -23,7 +23,10 @@ Assuming you have cargo repo set up already, run the following commands:
 
 1. Clone the repository:
    ```shell
-   git clone https://github.com/your-username/rust-prod-boilerplate.git
+   git clone https://github.com/Avyukth/rust-prod-boilerplate
+   ```
+2. Copy the contents of the repository to your project directory:
+   ```shell
    cp -r rust-prod-boilerplate/{.,}* .
    ```
 
